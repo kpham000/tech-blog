@@ -27,10 +27,13 @@
     "express-handlebars": "^5.3.4",
     "express-session": "^1.17.2",
     "mysql2": "^2.3.3-rc.0",
-    "nodemon": "^2.0.14",
+    "nodemon": "^2.0.15",
     "sequelize": "^6.9.0",
     "sequelize-store": "^0.4.2",
     "standard": "^16.0.4",
     "store": "^2.0.12"
+  },
+  "engines": {
+    "node": "14.18.0"
   }
 }
