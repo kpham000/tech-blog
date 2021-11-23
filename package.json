@@ -36,5 +36,8 @@
     "sequelize-store": "^0.4.2",
     "standard": "^16.0.4",
     "store": "^2.0.12"
+  },
+  "engines":{
+    "node":"14.18.0"
   }
 }
