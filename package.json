@@ -1,24 +1,26 @@
 {
-  "name": "travel-food-blog",
+  "name": "tech-blog",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "seeds": "node seeds/seed.js",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kpham000/travel-food-blog.git"
+    "url": "git+https://github.com/kpham000/tech-blog.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kpham000/travel-food-blog/issues"
+    "url": "https://github.com/kpham000/tech-blog/issues"
   },
-  "homepage": "https://github.com/kpham000/travel-food-blog#readme",
+  "homepage": "https://github.com/kpham000/tech-blog#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "cloudinary": "^1.27.1",
     "connect-session-sequelize": "^7.1.2",
     "cookie-parser": "^1.4.5",
     "dotenv": "^10.0.0",
@@ -27,13 +29,12 @@
     "express-handlebars": "^5.3.4",
     "express-session": "^1.17.2",
     "mysql2": "^2.3.3-rc.0",
-    "nodemon": "^2.0.15",
-    "sequelize": "^6.9.0",
+    "node": "^17.1.0",
+    "nodemailer": "^6.7.0",
+    "nodemon": "^2.0.14",
+    "sequelize": "^6.11.0",
     "sequelize-store": "^0.4.2",
     "standard": "^16.0.4",
     "store": "^2.0.12"
-  },
-  "engines": {
-    "node": "14.18.0"
   }
 }
