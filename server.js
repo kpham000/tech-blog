@@ -15,7 +15,7 @@ const hbs = exphbs.create({
 });
 
 
-const {User,Blog,Comment} = require('./models');
+// const {User,Blog,Comment} = require('./models');
 const routes = require("./controllers");
 
 app.engine('handlebars', hbs.engine);
