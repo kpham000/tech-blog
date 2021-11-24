@@ -1,11 +1,8 @@
 # tech-blog
 
-<br>
-
 ## Description
-Build a blog where users can publish articles, blog posts, and other comments onto that website. Users has option to log in and out. website also has homepage and a dashboard.
+Build a blog where users can create an account with login and logout functions. When users are logged in then they can publish blog posts and add comments onto the website with delete post function as well. Website also has homepage and a dashboard where all posts are shown.
 
-<br>
 
 ## Tech used
 - Express.js
@@ -15,5 +12,6 @@ Build a blog where users can publish articles, blog posts, and other comments on
 - Bcrypt
 - NPM packages
 
-<br>
+## Deploy
+https://techblog-01.herokuapp.com/
 
